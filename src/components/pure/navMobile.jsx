@@ -17,7 +17,7 @@ function NavMobile() {
 
     <div className='nav d-flex align-items-center justify-content-between'>
       <h2 className='nav-title'>
-        <NavLink to='/'>SERGIO LECUONA</NavLink>
+        <NavLink to='/'>Miguel Rangil</NavLink>
       </h2>
 
       <button
@@ -43,7 +43,7 @@ function NavMobile() {
             <h2 className='nav-title'
               id="offcanvasLabel"
               onClick={() => setShowMenu(false)}>
-              <NavLink to='/'>SERGIO LECUONA</NavLink>
+              <NavLink to='/'>Miguel Rangil</NavLink>
             </h2>
             <button
               className="btn pe-0"
@@ -61,7 +61,7 @@ function NavMobile() {
           <div className='container mt-3'>
             <ul className="navbar-nav justify-content-start">
               <li className='nav-group-title'>
-                <p><b>Sound_Works</b></p>
+                <p><b>Works</b></p>
               </li>
               {list.filter(({ category }) => category === SECTION.SOUND_WORKS)
                 .sort((a, b) => b.id - a.id)
@@ -92,7 +92,7 @@ function NavMobile() {
                   </li>
                 ))} */}
               <li className='nav-separator mt-2'>
-                <p><b>Image_Works</b></p>
+                <p><b>WONK</b></p>
               </li>
               {list.filter(({ category }) => category === SECTION.IMAGE_WORKS)
                 .sort((a, b) => b.id - a.id)
