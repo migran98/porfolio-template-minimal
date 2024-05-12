@@ -15,11 +15,11 @@ function Nav() {
 
     <nav className='nav flex-sm-column float-start pt-4 sticky-top'>
       <h1 className='nav-title'>
-        <NavLink to='/'>SERGIO LECUONA</NavLink>
+        <NavLink to='/'>Miguel Rangil</NavLink>
       </h1>
       <ul>
         <li className='nav-separator'>
-          <p><b>Sound_Works</b></p>
+          <p><b>Works</b></p>
         </li>
         {list.filter(({ category }) => category === SECTION.SOUND_WORKS)
           .sort((a, b) => b.id - a.id )
@@ -47,7 +47,7 @@ function Nav() {
             </li>
           ))} */}
         <li className='nav-separator mt-2'>
-          <p><b>Image_Works</b></p>
+          <p><b>WONK</b></p>
         </li>
         {list.filter(({ category }) => category === SECTION.IMAGE_WORKS)
           .sort((a, b) => b.id - a.id )
